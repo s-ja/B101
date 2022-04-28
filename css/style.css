@@ -74,11 +74,6 @@ body{
     font-size: 1.2em;
     border: 2px solid white;
 }
-.on{
-    background: darkgreen;
-    border: 2px solid white;
-    font-size: 1.2em;
-}
 #gnb{
     width: 600px;
     height: 50px;
@@ -117,6 +112,17 @@ body{
     height: 37.5px;
     line-height: 37.5px;
 }
+.lnb a:hover{
+    background: darkgreen;
+    border: 2px solid white;
+    font-size: 1.2em;
+}
+.on{
+    background: darkgreen;
+    border: 2px solid white;
+    font-size: 1.2em;
+}
+
 .slide{
     width: 1200px;
     height: 300px;
