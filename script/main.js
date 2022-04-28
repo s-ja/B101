@@ -30,6 +30,7 @@ function board(){
 function menu(){
     $("#gnb > li").mouseenter(function(){
         $(this).addClass("mouseenter")
+        $(this).children("li").mouseenter()
         $(this).children(".lnb").stop().slideDown()
     })
     $("#gnb > li").mouseleave(function(){
